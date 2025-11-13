@@ -30,6 +30,6 @@ jobs:
           path: ./artifacts
 
       - name: Display hello.txt content
-        run: cd artifacts/ && cat hello.txt
+        run: cat ./artifacts/hello.txt
 
   
